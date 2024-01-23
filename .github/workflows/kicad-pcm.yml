@@ -41,5 +41,5 @@ jobs:
           workflow: Rebuild repository
           ref: refs/heads/main
           repo: HydrogenPlumbing/hydrogen-kicad-library
-          token: ${{ secrets.PERSONAL_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           inputs: '{ "VERSION": "${{env.VERSION}}", "DOWNLOAD_SHA256": "${{env.DOWNLOAD_SHA256}}", "DOWNLOAD_SIZE": "${{env.DOWNLOAD_SIZE}}", "DOWNLOAD_URL": "${{env.DOWNLOAD_URL}}", "INSTALL_SIZE": "${{env.INSTALL_SIZE}}" }'
