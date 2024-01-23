@@ -1,0 +1,33 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "HydrogenPlumbing",
+    "description": "KiCAD component library for Hydrogen Plumbing open hardware projects",
+    "description_full": "",
+    "identifier": "com.github.HydrogenPlumbing.hydrogen-kicad-library",
+    "type": "library",
+    "author": {
+        "name": "HydrogenPlumbing",
+        "contact": {
+            "github": "HydrogenPlumbing"
+        }
+    },
+    "maintainer": {
+        "name": "HydrogenPlumbing",
+        "contact": {
+            "github": "HydrogenPlumbing"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/HydrogenPlumbing/hydrogen-kicad-library"
+    },
+    "versions": [{
+        "version": "VERSION_HERE",
+        "status": "testing",
+        "kicad_version": "7.0",
+        "download_sha256": "SHA256_HERE",
+        "download_size": DOWNLOAD_SIZE_HERE,
+        "download_url": "DOWNLOAD_URL_HERE",
+        "install_size": INSTALL_SIZE_HERE
+    }]
+}
